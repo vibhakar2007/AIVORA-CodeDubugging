@@ -26,11 +26,8 @@ def drawSquare():
     screen.mainloop()
     
 def callDrawer():
-    # os.system("type drawer.txt")
-    
     with open("drawer.txt", "r") as file:
         code = f"""{file.read()}"""
-    # print(code)
     exec(code)
 
 if __name__ == "__main__":

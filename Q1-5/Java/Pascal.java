@@ -40,7 +40,6 @@ public class Pascal {
             tri.add(next);
         }
 
-        // Print triangle
         for (List<Integer> row : tri) {
             for (int num : row) {
                 System.out.print(num + "  ");
